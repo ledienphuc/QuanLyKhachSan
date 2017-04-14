@@ -1,0 +1,14 @@
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\View\MainView.g.cs
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\App.g.cs
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan_MarkupCompile.cache
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan_MarkupCompile.lref
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\View\MainView.baml
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.g.resources
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
