@@ -25,8 +25,6 @@ namespace QuanLyKhachSan.ViewModel
     public class ViewModelLocator
     {
         private static MainViewModel _main;
-        private static DanhMucPhongViewModel _danhMucPhong;
-
         /// <summary>
         /// Initializes a new instance of the ViewModelLocator class.
         /// </summary>
@@ -48,8 +46,6 @@ namespace QuanLyKhachSan.ViewModel
 
             SimpleIoc.Default.Register<MainViewModel>();
         }
-
-        internal static DanhMucPhongViewModel DanhMucPhong { get => _danhMucPhong; set => _danhMucPhong = value; }
 
         public MainViewModel Main
         {

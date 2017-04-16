@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace QuanLyKhachSan.View
+namespace QuanLyKhachSan
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Khong ghi gi o day, moi thu chi duoc chua o file XAML
     /// </summary>
-    public partial class MainView : Window
+    public partial class MainWindow : Window
     {
-        public MainView()
+        public MainWindow()
         {
             InitializeComponent();
         }

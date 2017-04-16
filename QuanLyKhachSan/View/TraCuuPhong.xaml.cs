@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace QuanLyKhachSan.View
 {
     /// <summary>
-    /// Interaction logic for DanhMucPhongView.xaml
+    /// Interaction logic for TraCuuPhong.xaml
     /// </summary>
-    public partial class DanhMucPhongView : Window
+    public partial class TraCuuPhong : UserControl
     {
-        public DanhMucPhongView()
+        public TraCuuPhong()
         {
             InitializeComponent();
         }

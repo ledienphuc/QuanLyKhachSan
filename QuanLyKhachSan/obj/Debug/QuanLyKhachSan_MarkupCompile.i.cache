@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\DasupermAn\Source\Repos\QuanLyKhachSan\QuanLyKhachSan\App.xaml
-2-2082486382
+324774340
 
-14-1831266130
+16513990896
 691222280004
-View\DanhMucPhongView.xaml;View\MainView.xaml;
+MainWindow.xaml;View\DanhMucPhong.xaml;View\TraCuuPhong.xaml;
 
-False
+True
 

@@ -69,25 +69,33 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Phong.cs" />
     <Compile Include="ViewModel\DanhMucPhongViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\TraCuuPhongViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Compile Include="View\DanhMucPhongView.xaml.cs">
-      <DependentUpon>DanhMucPhongView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\MainView.xaml.cs">
-      <DependentUpon>MainView.xaml</DependentUpon>
+    <Compile Include="View\DanhMucPhong.xaml.cs">
+      <DependentUpon>DanhMucPhong.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\DanhMucPhongView.xaml">
+    <Compile Include="View\TraCuuPhong.xaml.cs">
+      <DependentUpon>TraCuuPhong.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\MainView.xaml">
+    <Page Include="View\DanhMucPhong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TraCuuPhong.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

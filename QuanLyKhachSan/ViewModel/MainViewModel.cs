@@ -1,4 +1,6 @@
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.CommandWpf;
+using System.Windows.Input;
 
 namespace QuanLyKhachSan.ViewModel
 {
@@ -20,20 +22,40 @@ namespace QuanLyKhachSan.ViewModel
         /// The current view
         /// </summary>
         private ViewModelBase _currentViewModel;
- 
+
+        public ViewModelBase CurrentViewModel
+        {
+            get
+            {
+                return _currentViewModel;
+            }
+            set
+            {
+                if (_currentViewModel == value)
+                    return;
+                _currentViewModel = value;
+                RaisePropertyChanged("CurrentViewModel");
+            }
+        }
+
+        readonly static DanhMucPhongViewModel _danhMucPhong = new DanhMucPhongViewModel();
+        readonly static TraCuuPhongViewModel _traCuuPhong = new TraCuuPhongViewModel();
+
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
         public MainViewModel()
         {
-            ////if (IsInDesignMode)
-            ////{
-            ////    // Code runs in Blend --> create design time data.
-            ////}
-            ////else
-            ////{
-            ////    // Code runs "for real"
-            ////}
+            CurrentViewModel = MainViewModel._traCuuPhong;
+
+            TraCuuPhongCommand = new RelayCommand(() => { CurrentViewModel = MainViewModel._traCuuPhong; }, () => true);
+
+            DanhMucPhongCommand = new RelayCommand(() => { CurrentViewModel = MainViewModel._danhMucPhong; }, () => true);
+
         }
+
+        public ICommand TraCuuPhongCommand { get; set; }
+        public ICommand DanhMucPhongCommand { get; set; }
     }
 }
