@@ -18,11 +18,18 @@ namespace QuanLyKhachSan.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
+        #region Fields
         /// <summary>
         /// The current view
         /// </summary>
         private ViewModelBase _currentViewModel;
 
+        //Can khai bao static vi chung ta chi muon view la mot ban co dinh khong doi
+        readonly static DanhMucPhongViewModel _danhMucPhong = new DanhMucPhongViewModel();
+        readonly static TraCuuPhongViewModel _traCuuPhong = new TraCuuPhongViewModel();
+        #endregion
+
+        #region Properties
         public ViewModelBase CurrentViewModel
         {
             get
@@ -37,11 +44,9 @@ namespace QuanLyKhachSan.ViewModel
                 RaisePropertyChanged("CurrentViewModel");
             }
         }
-
-        readonly static DanhMucPhongViewModel _danhMucPhong = new DanhMucPhongViewModel();
-        readonly static TraCuuPhongViewModel _traCuuPhong = new TraCuuPhongViewModel();
-
-
+        #endregion
+  
+        #region Constructor
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
@@ -54,8 +59,11 @@ namespace QuanLyKhachSan.ViewModel
             DanhMucPhongCommand = new RelayCommand(() => { CurrentViewModel = MainViewModel._danhMucPhong; }, () => true);
 
         }
+        #endregion
 
+        #region Command
         public ICommand TraCuuPhongCommand { get; set; }
         public ICommand DanhMucPhongCommand { get; set; }
+        #endregion
     }
 }

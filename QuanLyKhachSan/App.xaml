@@ -8,6 +8,13 @@
              d1p1:Ignorable="d" xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006">
     <Application.Resources>
         <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
+        <!--Day la data template de binding vao Content Control
+        Y nghia: Neu kieu du lieu (data type) cua currentviewmodel la gi thi view cua toi
+        se tuong ung 
+        VD: CurrentViewModel ban dau duoc gan bang traCuuPhong => datatype se la TraCuuPhongViewModel
+        => View tuong ung se la User Control: TraCuuPhong
+        Chu y: cung tu luc nay thi Data Context cua cac view tuong ung cung da duoc khoi tao o day
+        Khong duoc them data context o source view nua, neu khong se khong con static-->
         <DataTemplate DataType="{x:Type vm:TraCuuPhongViewModel}">
             <view:TraCuuPhong/>
         </DataTemplate>
